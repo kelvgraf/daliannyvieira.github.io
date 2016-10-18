@@ -97,8 +97,9 @@ html, body {
   border-radius: 50px;
 }
 
-.link
-  color #fff
+.link {
+  color: #fff;
+}
 
 .fa {
   font-size: 2em;
