@@ -291,8 +291,8 @@ html, body {
 }
 .book-1 {
   position: absolute;
-  top: -10px;
-  left: 105px;
+  top: -23px;
+  left: 35px;
   width: 70px;
   height: 10px;
   border-top-left-radius: 10px;
@@ -469,8 +469,8 @@ html, body {
 }
 .box {
   position: absolute;
-  top: -60px;
-  left: 340px;
+  top: -70px;
+  left: 270px;
   width: 40px;
   height: 60px;
   background: #fff;
