@@ -96,22 +96,26 @@ html, body {
   background: #fff;
   border-radius: 50px;
 }
-
 .link {
   color: #fff;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
-
+.link:hover {
+  text-decoration: none;
+  padding: 3px 0;
+  background: #fff;
+  color: #333;
+}
 .fa {
   font-size: 2em;
   text-align: center;
-  -webkit-animation: shadows 2s ease;
-          animation: shadows 2s ease;
   -webkit-transition: 0.7s;
   transition: 0.7s;
 }
 .fa:hover {
-  -webkit-transform: rotate(-22deg);
-          transform: rotate(-22deg);
+  -webkit-transform: rotate(-12deg);
+          transform: rotate(-12deg);
 }
 .fa-codepen {
   top: -25px;
@@ -822,49 +826,5 @@ html, body {
   100% {
     -webkit-transform: scaleY(1);
             transform: scaleY(1);
-  }
-}
-@-webkit-keyframes shadows {
-  0% {
-    -webkit-transform: rotate(-12deg);
-            transform: rotate(-12deg);
-  }
-  25% {
-    -webkit-transform: rotate(12deg);
-            transform: rotate(12deg);
-  }
-  50% {
-    -webkit-transform: rotate(-12deg);
-            transform: rotate(-12deg);
-  }
-  75% {
-    -webkit-transform: rotate(12deg);
-            transform: rotate(12deg);
-  }
-  100% {
-    -webkit-transform: rotate(-12deg);
-            transform: rotate(-12deg);
-  }
-}
-@keyframes shadows {
-  0% {
-    -webkit-transform: rotate(-12deg);
-            transform: rotate(-12deg);
-  }
-  25% {
-    -webkit-transform: rotate(12deg);
-            transform: rotate(12deg);
-  }
-  50% {
-    -webkit-transform: rotate(-12deg);
-            transform: rotate(-12deg);
-  }
-  75% {
-    -webkit-transform: rotate(12deg);
-            transform: rotate(12deg);
-  }
-  100% {
-    -webkit-transform: rotate(-12deg);
-            transform: rotate(-12deg);
   }
 }
