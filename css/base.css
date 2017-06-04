@@ -1,0 +1,59 @@
+html, body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+  position: relative;
+}
+
+header {
+  position: relative;
+  width: 500px;
+  height: 205px;
+}
+
+section {
+  text-align: center;
+  max-width: 500px;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.5;
+  color: #fff;
+}
+
+.link {
+  color: #fff;
+}
+
+@media screen and (max-width: 515px) {
+  header {
+    transform: scale(0.9);
+  }
+  section {
+    transform: scale(1);
+  }
+}
+@media screen and (max-width: 460px) {
+  header {
+    transform: scale(0.8);
+    height: 160px;
+  }
+}
+@media screen and (max-width: 420px) {
+  header {
+    transform: scale(0.7);
+  }
+}
+@media screen and (max-width: 400px) {
+  header {
+    transform: scale(0.6);
+  }
+}
