@@ -4,24 +4,55 @@ body {
 
 .paper {
   position: absolute;
-  top: 55px;
-  left: 125px;
-  width: 60px;
+  top: 45px;
+  left: 130px;
+  width: 65px;
+  height: 75px;
+  background: #fff;
+  border-bottom-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.paper-2 {
+  position: absolute;
+  top: 95px;
+  left: 75px;
+  width: 45px;
+  height: 50px;
+  background: #fff;
+  border-bottom-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.paper-2::after {
+  content: 'blog';
+  position: absolute;
+  font-weight: bold;
+  color: #abd9b5;
+  top: 15px;
+  left: 5px;
+}
+
+.paper-3 {
+  position: absolute;
+  top: 65px;
+  left: 325px;
+  width: 55px;
   height: 65px;
   background: #fff;
   border-bottom-right-radius: 10px;
   border-top-left-radius: 10px;
 }
-.paper-2 {
+
+.paper-3::after {
+  content: url('../assets/vainaweb.svg');
   position: absolute;
-  top: 95px;
-  left: 75px;
-  width: 40px;
-  height: 40px;
-  background: #fff;
-  border-bottom-right-radius: 10px;
-  border-top-left-radius: 10px;
+  top: 15px;
+  left: 5px;
+  width: 45px;
+  height: 45px;
 }
+
 .table {
   position: absolute;
   top: 195px;
@@ -32,7 +63,7 @@ body {
 }
 
 .fa {
-  font-size: 2em;
+  font-size: 2.2em;
   text-align: center;
   -webkit-transition: 0.7s;
   transition: 0.7s;
@@ -47,13 +78,13 @@ body {
   color: #abd9b5;
 }
 .fa-behance {
-  top: -123px;
-  left: 101px;
+  top: -130px;
+  left: 105px;
   color: #f8b899;
 }
 .fa-twitter {
-  top: -12px;
-  left: 46px;
+  top: -15px;
+  left: 55px;
   color: #abd9b5;
 }
 .fa-github {
@@ -181,7 +212,7 @@ body {
   position: absolute;
   top: -20px;
   left: 25px;
-  width: 3px;
+  width: 4px;
   height: 20px;
   background: #f8b899;
 }
@@ -189,7 +220,7 @@ body {
   position: absolute;
   top: -25px;
   left: 30px;
-  width: 5px;
+  width: 7px;
   height: 25px;
   background: #abd9b5;
 }
@@ -240,7 +271,7 @@ body {
 }
 .book-1 {
   position: absolute;
-  top: -24px;
+  top: -26px;
   left: 35px;
   width: 70px;
   height: 12px;
@@ -353,11 +384,12 @@ body {
   position: absolute;
   left: -10px;
   width: 60px;
-  height: 65px;
+  height: 60px;
   border-top-left-radius: 30px;
   border-top-right-radius: 30px;
-  border-bottom-left-radius: 30px;
-  background: #333;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background: #222;
 }
 .hair-front {
   position: absolute;
@@ -366,7 +398,7 @@ body {
   height: 43px;
   border-top-right-radius: 30px;
   border-bottom-left-radius: 30px;
-  background: #333;
+  background: #222;
 }
 .eye-1 {
   position: absolute;
