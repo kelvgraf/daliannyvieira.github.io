@@ -4,7 +4,7 @@ body {
 
 .paper {
   position: absolute;
-  top: 45px;
+  top: 35px;
   left: 130px;
   width: 65px;
   height: 75px;
@@ -15,7 +15,7 @@ body {
 
 .paper-2 {
   position: absolute;
-  top: 95px;
+  top: 90px;
   left: 75px;
   width: 45px;
   height: 50px;
@@ -35,8 +35,8 @@ body {
 
 .paper-3 {
   position: absolute;
-  top: 65px;
-  left: 325px;
+  top: 50px;
+  left: 340px;
   width: 55px;
   height: 65px;
   background: #fff;
@@ -78,28 +78,28 @@ body {
   color: #abd9b5;
 }
 .fa-behance {
-  top: -130px;
+  top: -140px;
   left: 105px;
   color: #f8b899;
 }
 .fa-twitter {
   top: -15px;
-  left: 55px;
+  left: 57px;
   color: #abd9b5;
 }
 .fa-github {
-  top: 5px;
+  top: 0px;
   left: 47px;
   color: #f8b899;
 }
 .precisaser {
-  width: 10px;
-  border-left: 10px solid #ffc2a5;
-  border-right: 10px solid #8adc9c;
-  border-bottom: 10px solid #f8b899;
-  border-top: 10px solid #abd9b5;
+  width: 12px;
+  border-left: 12px solid #ffc2a5;
+  border-right: 12px solid #8adc9c;
+  border-bottom: 12px solid #f8b899;
+  border-top: 12px solid #abd9b5;
   top: 10px;
-  left: 15px;
+  left: 7px;
   -webkit-transition: 1s;
   transition: 1s;
 }
@@ -111,7 +111,7 @@ body {
 .bowl {
   position: absolute;
   top: -25px;
-  left: 400px;
+  left: 420px;
   width: 50px;
   height: 25px;
   background: #fff;
@@ -130,10 +130,10 @@ body {
 }
 .bowl-2 {
   position: absolute;
-  top: -25px;
-  left: 50px;
+  top: -27px;
+  left: 55px;
   width: 50px;
-  height: 25px;
+  height: 30px;
   background: #fff;
   border-bottom-right-radius: 30px;
   border-top-left-radius: 30px;
@@ -210,35 +210,35 @@ body {
 }
 .caneta-1 {
   position: absolute;
-  top: -20px;
+  top: -23px;
   left: 25px;
   width: 4px;
-  height: 20px;
+  height: 25px;
   background: #f8b899;
 }
 .caneta-2 {
   position: absolute;
-  top: -25px;
+  top: -30px;
   left: 30px;
   width: 7px;
-  height: 25px;
+  height: 30px;
   background: #abd9b5;
 }
 .notebook {
   position: absolute;
-  top: -80px;
+  top: -85px;
   left: 200px;
-  width: 120px;
-  height: 75px;
+  width: 130px;
+  height: 85px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   background: #fff;
 }
 .notebook::after {
   position: absolute;
-  top: 70px;
+  top: 75px;
   left: -10px;
-  width: 140px;
+  width: 150px;
   height: 10px;
   background: #fff;
   border-bottom-left-radius: 20px;
@@ -350,7 +350,7 @@ body {
 }
 .me {
   position: absolute;
-  top: 50px;
+  top: 40px;
   left: 215px;
 }
 .me-body {
@@ -450,9 +450,9 @@ body {
 }
 .box {
   position: absolute;
-  top: -70px;
-  left: 270px;
-  width: 40px;
+  top: -75px;
+  left: 280px;
+  width: 45px;
   height: 60px;
   background: #fff;
   border-radius: 10px;
@@ -460,7 +460,7 @@ body {
 .circle {
   position: absolute;
   top: 32px;
-  left: 7px;
+  left: 10px;
   width: 26px;
   height: 26px;
   background: #eee;
@@ -482,7 +482,7 @@ body {
 .circle-2 {
   position: absolute;
   top: 5px;
-  left: 8px;
+  left: 10px;
   width: 24px;
   height: 24px;
 }
